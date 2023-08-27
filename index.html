@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- UIkit CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/css/uikit.min.css" />
+
+		<!-- UIkit JS -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.24/dist/js/uikit-icons.min.js"></script>
+		<style>
+			html * {
+				cursor: url('./George-Olken.png'), auto;
+			}
+
+			.flex {
+				display: flex;
+			}
+
+			.flex-centered {
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+
+
+			@media (max-width: 240px) {
+				/* really tiny screens */
+			}
+
+			@media (min-width: 241px) and (max-width: 319px) {
+				/* a little bit bigger screens */
+				.responsive-width{
+					margin: 0 20px;
+				}
+			}
+
+			@media (min-width: 320px) and (max-width: 767px) {
+				/* Basically up to, but not including an iPad */
+				.responsive-width{
+					margin: 0 10px;
+				}
+			}
+
+			@media (min-width: 768px) {
+				/* iPad and bigger */
+				.responsive-width{
+					margin: 0 5px;
+				}
+			}
+		</style>
+		<link rel="stylesheet" href="">
+	</head>
+
+	<body>
+		<div class="flex flex-centered">
+			<h1 style="margin-top: 5px;">
+				George Olken?
+			</h1>
+			<h3 style="margin: 5px;">Fucking rules</h3>
+			<img src="./George-Olken.png"
+				 alt="Olken For President">
+		</div>
+		<div class="responsive-width">
+			<ul uk-accordion>
+				<li class="uk-open">
+					<a class="uk-accordion-title"
+					   href="#">Dope Idea</a>
+					<div class="uk-accordion-content">
+						<p>Hell ya, let's get this shit done.</p>
+					</div>
+				</li>
+				<li>
+					<a class="uk-accordion-title"
+					   href="#">Kill the landlords</a>
+					<div class="uk-accordion-content">
+						<p>String 'em up.</p>
+					</div>
+				</li>
+				<li>
+					<a class="uk-accordion-title"
+					   href="#">Book Signal</a>
+					<div class="uk-accordion-content">
+						<p>Send it up, here we come.</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+	</body>
+
+</html>
